@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Il2CppAssemblyGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a1926426a0c65d1c1b038102f34e113a8dc4352")]
 [assembly: System.Reflection.AssemblyProductAttribute("Il2CppAssemblyGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Il2CppAssemblyGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

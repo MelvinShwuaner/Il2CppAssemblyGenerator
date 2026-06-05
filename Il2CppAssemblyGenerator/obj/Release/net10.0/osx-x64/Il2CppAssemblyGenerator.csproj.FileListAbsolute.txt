@@ -204,10 +204,6 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/Il2CppInterop.Common.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/Il2CppInterop.Generator.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/MonoMod.Backports.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/MonoMod.ILHelpers.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/Il2CppInterop.Common.xml
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/osx-x64/Il2CppInterop.Generator.xml
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/osx-x64/Il2CppAssemblyGenerator.csproj.AssemblyReference.cache
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/osx-x64/Il2CppAssemblyGenerator.GeneratedMSBuildEditorConfig.editorconfig
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/osx-x64/Il2CppAssemblyGenerator.AssemblyInfoInputs.cache

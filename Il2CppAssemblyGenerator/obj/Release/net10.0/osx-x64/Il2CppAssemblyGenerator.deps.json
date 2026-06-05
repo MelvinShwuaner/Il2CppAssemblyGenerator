@@ -850,22 +850,6 @@
             "fileVersion": "6.0.322.12309"
           }
         }
-      },
-      "MonoMod.Backports/1.1.2.0": {
-        "runtime": {
-          "MonoMod.Backports.dll": {
-            "assemblyVersion": "1.1.2.0",
-            "fileVersion": "1.1.2.0"
-          }
-        }
-      },
-      "MonoMod.ILHelpers/1.1.0.0": {
-        "runtime": {
-          "MonoMod.ILHelpers.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
       }
     }
   },
@@ -968,16 +952,6 @@
       "sha512": ""
     },
     "Microsoft.Extensions.Logging.Abstractions/6.0.0.1": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MonoMod.Backports/1.1.2.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MonoMod.ILHelpers/1.1.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -17,8 +17,6 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/Il2CppInterop.Common.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/Il2CppInterop.Generator.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/MonoMod.Backports.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/MonoMod.ILHelpers.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/runtimes/linux-arm/native/libcapstone.so
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/runtimes/linux-arm64/native/libcapstone.so
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/runtimes/linux-x64/native/libcapstone.so
@@ -39,5 +37,3 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/Il2CppAssemblyGenerator.pdb
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/Il2CppAssemblyGenerator.genruntimeconfig.cache
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/ref/Il2CppAssemblyGenerator.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/Il2CppInterop.Common.xml
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Debug/net10.0/Il2CppInterop.Generator.xml

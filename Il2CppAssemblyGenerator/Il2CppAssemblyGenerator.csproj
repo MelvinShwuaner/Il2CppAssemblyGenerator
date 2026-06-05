@@ -16,13 +16,13 @@
         <HintPath>..\..\..\..\Documents\GitHub\Il2CppInterop\Il2CppInterop.Generator\bin\Debug\net472\AsmResolver.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Common">
-        <HintPath>..\..\..\..\Documents\GitHub\Il2CppInterop\Il2CppInterop.Generator\bin\Debug\net472\Il2CppInterop.Common.dll</HintPath>
+        <HintPath>Interop\Il2CppInterop.Common.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppInterop.Generator">
-        <HintPath>..\..\..\..\Documents\GitHub\Il2CppInterop\Il2CppInterop.Generator\bin\Debug\net472\Il2CppInterop.Generator.dll</HintPath>
+        <HintPath>Interop\Il2CppInterop.Generator.dll</HintPath>
       </Reference>
       <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-        <HintPath>..\..\..\..\Documents\GitHub\Il2CppInterop\Il2CppInterop.Generator\bin\Debug\net472\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+        <HintPath>Interop\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
       </Reference>
     </ItemGroup>
 
