@@ -37,3 +37,4 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/Il2CppAssemblyGenerator.pdb
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/Il2CppAssemblyGenerator.genruntimeconfig.cache
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/ref/Il2CppAssemblyGenerator.dll
+/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Debug/net10.0/Il2CppAssemblyGenerator.sourcelink.json
