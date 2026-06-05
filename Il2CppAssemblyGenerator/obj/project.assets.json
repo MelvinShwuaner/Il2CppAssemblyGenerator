@@ -193,6 +193,177 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.NET.ILLink.Tasks/10.0.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    },
+    "net10.0/osx-arm64": {
+      "AsmResolver/6.0.0-beta.5": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/AsmResolver.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/AsmResolver.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AsmResolver.DotNet/6.0.0-beta.5": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.PE": "6.0.0-beta.5"
+        },
+        "compile": {
+          "lib/net10.0/AsmResolver.DotNet.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/AsmResolver.DotNet.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AsmResolver.PE/6.0.0-beta.5": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.PE.File": "6.0.0-beta.5"
+        },
+        "compile": {
+          "lib/net10.0/AsmResolver.PE.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/AsmResolver.PE.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AsmResolver.PE.File/6.0.0-beta.5": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver": "6.0.0-beta.5"
+        },
+        "compile": {
+          "lib/net10.0/AsmResolver.PE.File.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/AsmResolver.PE.File.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AssetRipper.CIL/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.DotNet": "6.0.0-beta.5"
+        },
+        "compile": {
+          "lib/net10.0/AssetRipper.CIL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/AssetRipper.CIL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AssetRipper.Cpp2IL.Core/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AsmResolver.DotNet": "6.0.0-beta.5",
+          "AssetRipper.CIL": "1.2.2",
+          "AssetRipper.Gee.External.Capstone": "2.3.2",
+          "AssetRipper.LibCpp2IL": "1.0.1",
+          "Disarm": "2022.1.0-master.99",
+          "Iced": "1.21.0"
+        },
+        "compile": {
+          "lib/net9.0/Cpp2IL.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Cpp2IL.Core.dll": {}
+        }
+      },
+      "AssetRipper.Gee.External.Capstone/2.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Gee.External.Capstone.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Gee.External.Capstone.dll": {
+            "related": ".xml"
+          }
+        },
+        "native": {
+          "runtimes/osx-arm64/native/libcapstone.dylib": {}
+        }
+      },
+      "AssetRipper.LibCpp2IL/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AssetRipper.Primitives": "3.2.0"
+        },
+        "compile": {
+          "lib/net9.0/LibCpp2IL.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/LibCpp2IL.dll": {}
+        }
+      },
+      "AssetRipper.Primitives/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/AssetRipper.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/AssetRipper.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Disarm/2022.1.0-master.99": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Disarm.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Disarm.dll": {}
+        }
+      },
+      "Iced/1.21.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Iced.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Iced.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/10.0.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
       }
     }
   },
@@ -507,11 +678,62 @@
         "lib/netstandard2.1/Iced.xml",
         "logo.png"
       ]
+    },
+    "Microsoft.NET.ILLink.Tasks/10.0.2": {
+      "sha512": "sXdDtMf2qcnbygw9OdE535c2lxSxrZP8gO4UhDJ0xiJbl1wIqXS1OTcTDFTIJPOFd6Mhcm8gPEthqWGUxBsTqw==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/10.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.10.0.2.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net/ILLink.Tasks.deps.json",
+        "tools/net/ILLink.Tasks.dll",
+        "tools/net/Mono.Cecil.Mdb.dll",
+        "tools/net/Mono.Cecil.Pdb.dll",
+        "tools/net/Mono.Cecil.Rocks.dll",
+        "tools/net/Mono.Cecil.dll",
+        "tools/net/Sdk/Sdk.props",
+        "tools/net/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net/build/Microsoft.NET.ILLink.targets",
+        "tools/net/illink.deps.json",
+        "tools/net/illink.dll",
+        "tools/net/illink.runtimeconfig.json",
+        "tools/netframework/ILLink.Tasks.dll",
+        "tools/netframework/ILLink.Tasks.dll.config",
+        "tools/netframework/Mono.Cecil.Mdb.dll",
+        "tools/netframework/Mono.Cecil.Pdb.dll",
+        "tools/netframework/Mono.Cecil.Rocks.dll",
+        "tools/netframework/Mono.Cecil.dll",
+        "tools/netframework/Sdk/Sdk.props",
+        "tools/netframework/System.Buffers.dll",
+        "tools/netframework/System.Collections.Immutable.dll",
+        "tools/netframework/System.Memory.dll",
+        "tools/netframework/System.Numerics.Vectors.dll",
+        "tools/netframework/System.Reflection.Metadata.dll",
+        "tools/netframework/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netframework/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/netframework/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/netframework/build/Microsoft.NET.ILLink.targets",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "AssetRipper.Cpp2IL.Core >= 1.0.1"
+      "AssetRipper.Cpp2IL.Core >= 1.0.1",
+      "Microsoft.NET.ILLink.Tasks >= 10.0.2"
     ]
   },
   "packageFolders": {
@@ -561,6 +783,12 @@
           "AssetRipper.Cpp2IL.Core": {
             "target": "Package",
             "version": "[1.0.1, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.2, )",
+            "autoReferenced": true
           }
         },
         "imports": [
@@ -574,6 +802,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-arm64",
+            "version": "[10.0.2, 10.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[10.0.2, 10.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
+            "version": "[10.0.2, 10.0.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -854,6 +1096,11 @@
           "System.Xml.XPath": "(,4.3.32767]",
           "System.Xml.XPath.XDocument": "(,5.0.32767]"
         }
+      }
+    },
+    "runtimes": {
+      "osx-arm64": {
+        "#import": []
       }
     }
   }

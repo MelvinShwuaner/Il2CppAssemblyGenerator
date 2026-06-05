@@ -205,10 +205,6 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/Il2CppInterop.Common.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/Il2CppInterop.Generator.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/MonoMod.Backports.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/MonoMod.ILHelpers.dll
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/Il2CppInterop.Common.xml
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/Il2CppInterop.Generator.xml
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.csproj.AssemblyReference.cache
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.GeneratedMSBuildEditorConfig.editorconfig
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.AssemblyInfoInputs.cache
@@ -220,3 +216,4 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.pdb
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.genruntimeconfig.cache
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/ref/Il2CppAssemblyGenerator.dll
+/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/obj/Release/net10.0/win-x64/Il2CppAssemblyGenerator.sourcelink.json

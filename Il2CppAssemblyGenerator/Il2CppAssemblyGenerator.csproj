@@ -6,7 +6,17 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    <PropertyGroup>
+        <PublishTrimmed>false</PublishTrimmed>
+        <TrimMode>full</TrimMode>
+        <SelfContained>true</SelfContained>
+        <PublishSingleFile>true</PublishSingleFile>
 
+        <!-- Size optimizations -->
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <DebuggerSupport>false</DebuggerSupport>
+        <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="AssetRipper.Cpp2IL.Core" Version="1.0.1" />
     </ItemGroup>
