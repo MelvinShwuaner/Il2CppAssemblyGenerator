@@ -1,3 +1,2 @@
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/publish/Il2CppAssemblyGenerator.pdb
-/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/publish/capstone.dll
 /Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/bin/Release/net10.0/win-x64/publish/Il2CppAssemblyGenerator.exe
