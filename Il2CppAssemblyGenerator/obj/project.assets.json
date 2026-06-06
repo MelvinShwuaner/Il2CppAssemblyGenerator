@@ -201,7 +201,7 @@
         }
       }
     },
-    "net10.0/osx-arm64": {
+    "net10.0/osx-x64": {
       "AsmResolver/6.0.0-beta.5": {
         "type": "package",
         "compile": {
@@ -309,7 +309,7 @@
           }
         },
         "native": {
-          "runtimes/osx-arm64/native/libcapstone.dylib": {}
+          "runtimes/osx-x64/native/libcapstone.dylib": {}
         }
       },
       "AssetRipper.LibCpp2IL/1.0.1": {
@@ -804,15 +804,11 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.osx-arm64",
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
             "version": "[10.0.2, 10.0.2]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[10.0.2, 10.0.2]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
             "version": "[10.0.2, 10.0.2]"
           }
         ],
@@ -1099,7 +1095,7 @@
       }
     },
     "runtimes": {
-      "osx-arm64": {
+      "osx-x64": {
         "#import": []
       }
     }

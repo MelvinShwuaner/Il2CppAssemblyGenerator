@@ -52,10 +52,10 @@ void GenerateFromGradle()
 {
     string folder = args[1];
     Folder = Directory.GetParent(folder)!.FullName;
-    Temp = Folder + "/TempGen";
+    Temp = Path.Combine(Folder, "TempGen");
     Directory.CreateDirectory(Temp);
     File.Copy(folder+"/src/main/jniLibs/arm64-v8a/libil2cpp.so", Temp + "/libil2cpp.so");
-
+ 
     string assetsDir = Path.Combine(folder, "src", "main", "assets");
     File.Copy(assetsDir+"/bin/Data/Managed/Metadata/global-metadata.dat", Temp + "/global-metadata.dat");
     string versiondata = assetsDir + "/bin/Data/globalgamemanagers";

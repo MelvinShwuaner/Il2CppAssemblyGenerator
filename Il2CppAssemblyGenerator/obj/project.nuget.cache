@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "scCggvh+IvM=",
+  "dgSpecHash": "dLUq/YKaTsw=",
   "success": true,
   "projectFilePath": "/Users/hamza/RiderProjects/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator/Il2CppAssemblyGenerator.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,8 @@
     "/Users/hamza/.nuget/packages/disarm/2022.1.0-master.99/disarm.2022.1.0-master.99.nupkg.sha512",
     "/Users/hamza/.nuget/packages/iced/1.21.0/iced.1.21.0.nupkg.sha512",
     "/Users/hamza/.nuget/packages/microsoft.net.illink.tasks/10.0.2/microsoft.net.illink.tasks.10.0.2.nupkg.sha512",
-    "/Users/hamza/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/10.0.2/microsoft.netcore.app.runtime.osx-arm64.10.0.2.nupkg.sha512",
-    "/Users/hamza/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/10.0.2/microsoft.aspnetcore.app.runtime.osx-arm64.10.0.2.nupkg.sha512",
-    "/Users/hamza/.nuget/packages/microsoft.netcore.app.host.osx-arm64/10.0.2/microsoft.netcore.app.host.osx-arm64.10.0.2.nupkg.sha512"
+    "/Users/hamza/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/10.0.2/microsoft.netcore.app.runtime.osx-x64.10.0.2.nupkg.sha512",
+    "/Users/hamza/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/10.0.2/microsoft.aspnetcore.app.runtime.osx-x64.10.0.2.nupkg.sha512"
   ],
   "logs": []
 }
