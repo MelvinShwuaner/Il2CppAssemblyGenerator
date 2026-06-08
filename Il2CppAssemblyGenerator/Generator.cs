@@ -35,8 +35,7 @@ public class Generator
         Cpp2IL.Core.Logging.Logger.ErrorLog += (message, s) =>
             Logger.LogError($"[{s}] {message.Trim()}");
 
-        var unityVersion = Version;
-        Cpp2IlApi.InitializeLibCpp2Il(Temp + "/libil2cpp.so", Temp + "/global-metadata.dat", unityVersion, false);
+        Cpp2IlApi.InitializeLibCpp2Il(Temp + "/libil2pp", Temp + "/global-metadata.dat", Version, false);
 
         List<Cpp2IlProcessingLayer> processingLayers = new() { new AttributeInjectorProcessingLayer(), };
 
@@ -60,7 +59,7 @@ public class Generator
         Logger.LogInfo("Downloading UnityLibs");
         stopwatch.Restart();
 
-        var version = $"{unityVersion.Major}.{unityVersion.Minor}.{unityVersion.Build}";
+        var version = $"{Version.Major}.{Version.Minor}.{Version.Build}";
         var source = "https://unity.bepinex.dev/libraries/{VERSION}.zip".Replace("{VERSION}", version);
         HttpClient Client = new HttpClient();
 
