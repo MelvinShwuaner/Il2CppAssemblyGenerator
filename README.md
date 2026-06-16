@@ -1,6 +1,6 @@
 # Il2CppAssembly Generator
 
-a automatic script to generate il2cpp assemblies, to be used by the [il2cpp mod loader](https://github.com/MelvinShwuaner/IL2CPPModLoader)
+a automatic script to generate il2cpp assemblies in your unity project, to be used by the [il2cpp mod loader](https://github.com/MelvinShwuaner/IL2CPPModLoader)
 
 How to build:
 
